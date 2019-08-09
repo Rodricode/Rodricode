@@ -1,0 +1,24 @@
+/***** BASE STYLES *****/
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Source Code Pro', monospace;
+  background: #1d212b;
+  color: #ffffff;
+}
+
+/***** GRID *****/
+.full-width{
+  width:1400px;
+  margin: auto;
+}
+.half-width{
+  width: 700px;
+  margin: auto;
+  float:left;
+}
+/***** HEADER *****/
+head{
+  background: url('../img/hero-background.png');
+  background-size: cover;
+  height: 720px;
+}
