@@ -22,3 +22,27 @@ head{
   background-size: cover;
   height: 720px;
 }
+h1{
+  padding: 300px 100px;
+}
+nav ul li a{
+  color:#ffffff;
+  font-size: 24px;
+  text-transform: lowercase;
+  text-decoration: none;
+  padding-left: 10px;
+}
+nav ul li{
+  display: inline-block;
+}
+
+/***** Portfolio Section *****/
+
+/***** About section ******/
+#about h3{
+  text-align: center;
+}
+#about p{
+  width:600px;
+  padding-left: 100px;
+}
