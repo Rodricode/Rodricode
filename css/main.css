@@ -5,6 +5,9 @@ body{
   background: #1d212b;
   color: #ffffff;
 }
+span{
+  color: #fa0075;
+}
 
 /***** GRID *****/
 .full-width{
@@ -18,12 +21,13 @@ body{
 }
 /***** HEADER *****/
 head{
-  background: url('../img/hero-background.png');
+  background:url('../img/hero-background.png');
   background-size: cover;
-  height: 720px;
+  height: 800px;
 }
 h1{
   padding: 300px 100px;
+  width:300px;
 }
 nav ul li a{
   color:#ffffff;
@@ -37,10 +41,23 @@ nav ul li{
 }
 
 /***** Portfolio Section *****/
+#portfolio h3{
+  color:#fa0075;
+  text-align:center;
+}
+#portfolio img{
+  float: left;
+}
 
+#portfolio h5 p{
+  float: left;
+  padding: 0px 100px;
+}
 /***** About section ******/
+
 #about h3{
   text-align: center;
+  color: #fa0075;
 }
 #about p{
   width:600px;
