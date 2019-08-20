@@ -11,23 +11,22 @@ span{
 
 /***** GRID *****/
 .full-width{
-  width:1400px;
+  width:1200px;
   margin: auto;
 }
 .half-width{
-  width: 700px;
+  width: 600px;
   margin: auto;
   float:left;
 }
-/***** HEADER *****/
-head{
-  background:url('../img/hero-background.png');
-  background-size: cover;
-  height: 800px;
+.third-width{
+  float: left;
+  margin-left: 0 auto;
+  width: 400px;
 }
-h1{
-  padding: 300px 100px;
-  width:300px;
+/***** HEADER *****/
+header{
+  border-bottom: dotted #1d212b 5px;
 }
 nav ul li a{
   color:#ffffff;
@@ -39,22 +38,45 @@ nav ul li a{
 nav ul li{
   display: inline-block;
 }
-
+/***** cool *****/
+#cool{
+  background:url('../img/hero-background.png');
+  background-size:cover;
+  height: auto;
+  width:auto;
+  margin-top: 35px;
+}
+h1{
+  padding: 300px 100px;
+  width:300px;
+  margin-left: 200px;
+}
 /***** Portfolio Section *****/
 #portfolio h3{
   color:#fa0075;
   text-align:center;
+  height: auto;
 }
-#portfolio img{
-  float: left;
+#portfolio{
+  height:1175px;
+  padding-left: 100px;
 }
-
-#portfolio h5 p{
-  float: left;
-  padding: 0px 100px;
+.rogue{
+ padding: 0px 100px;
+}
+.jubilee{
+  width:1200px;
+  height:425px;
+  clear:both;
+  text-align: right;
+  padding-left: 100px;
 }
 /***** About section ******/
-
+#about{
+  height:550px;
+  background-image:url('../img/about-me.png');
+  background-size: cover;
+}
 #about h3{
   text-align: center;
   color: #fa0075;
@@ -62,4 +84,64 @@ nav ul li{
 #about p{
   width:600px;
   padding-left: 100px;
+  margin-top: 100px;
+  font-weight: bold;
+}
+
+/***** Footer *****/
+#Contact{
+  text-align: center;
+  float: left;
+  height: 450px;
+}
+#contact .hire{
+  width: 400px;
+  float: left;
+  margin-top: 50px;
+}
+#contact .hire h4{
+  text-decoration: underline;
+  font-weight: bold;
+  text-align: center;
+}
+#contact .hire p{
+  text-align: center;
+}
+#contact .hire a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+#Contact .hire h3{
+  text-align: center;
+  margin-left: 50px;
+}
+#contact .socialmedia{
+  width: 400px;
+  float: left;
+  text-align: center;
+}
+#contact .socialmedia h4{
+  text-decoration: underline;
+}
+#contact .location{
+  width: 400px;
+  float: left;
+  border: solid 10px pink
+  text-align: center;
+  margin-top: 50px;
+}
+#contact .location h4{
+  margin-left: 150px;
+  text-decoration: underline;
+}
+#contact .location p{
+  margin-left: 110px;
+}
+#contact ul li{
+  display: inline-block;
+}
+#contact ul{
+  list-style: none;
 }
