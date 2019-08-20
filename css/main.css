@@ -46,10 +46,10 @@ nav ul li{
   width:auto;
   margin-top: 35px;
 }
-h1{
-  padding: 300px 100px;
+#cool h1{
+  padding: 300px 1px;
   width:300px;
-  margin-left: 200px;
+  margin:10px;
 }
 /***** Portfolio Section *****/
 #portfolio h3{
