@@ -2,11 +2,11 @@
 body{
   font-family: 'Montserrat', sans-serif;
   font-family: 'Source Code Pro', monospace;
-  background: #1d212b;
+  background: #000000;
   color: #ffffff;
 }
 span{
-  color: #fa0075;
+  color:#ffff66;
 }
 
 /***** GRID *****/
@@ -26,7 +26,7 @@ span{
 }
 /***** HEADER *****/
 header{
-  border-bottom: dotted #1d212b 5px;
+  border-bottom: dotted #000000 5px;
 }
 nav ul li a{
   color:#ffffff;
@@ -40,11 +40,12 @@ nav ul li{
 }
 /***** cool *****/
 #cool{
-  background:url('../img/hero-background.png');
-  background-size:cover;
-  height: auto;
-  width:auto;
+  background:url('../img/dtla.png');
+  background-size: cover;
+  height: 725px;
+  width:1400px;
   margin-top: 35px;
+  margin-left: 200px;
 }
 #cool h1{
   padding: 300px 1px;
@@ -53,7 +54,7 @@ nav ul li{
 }
 /***** Portfolio Section *****/
 #portfolio h3{
-  color:#fa0075;
+  color:#ffff66;
   text-align:center;
   height: auto;
 }
@@ -79,7 +80,7 @@ nav ul li{
 }
 #about h3{
   text-align: center;
-  color: #fa0075;
+  color: #ffff66;
 }
 #about p{
   width:600px;
